@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import "tailwindcss";
+ @plugin "daisyui" {
+   themes: aqua --default;
+ }
+ @plugin "daisyui/theme" {
+  name: "aqua";
+  default: true;
+  --color-base-100: oklch(70.7% 0.165 254.624);
+}
+
+ @theme {
+  --font-nunito: "Nunito", sans-serif; 
+}
+
+@layer base {
+  * {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+  }
+
+  *::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  font-family: var(--font-nunito);
+  scroll-behavior: smooth;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
