@@ -20,7 +20,7 @@ function Navbar() {
     <div className={navClass}>
       <div className="navbar-start">
         <Link to="/">
-          <img src="/sfcc.avif" alt="SFCC Logo" className="h-32 w-auto" />
+          <img src="./sfcc.avif" alt="SFCC Logo" className="h-32 w-auto" />
         </Link>
         <span className="text-2xl font-bold ml-2">
           Students Fighting Climate Change

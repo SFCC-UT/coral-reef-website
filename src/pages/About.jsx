@@ -3,37 +3,37 @@ export default function About() {
     {
       name: "Allison Podanoffsky",
       title: "Directer of Outreach",
-      img: "/AllisonPodanoffsky.avif",
+      img: "./AllisonPodanoffsky.avif",
     },
     {
       name: "Madeleine Lee",
       title: "Director of Research",
-      img: "/MadeleineLee.avif",
+      img: "./MadeleineLee.avif",
     },
     {
       name: "Kenny Calvo",
       title: "Junior Director of Recruitment",
-      img: "/Kenny.avif",
+      img: "./Kenny.avif",
     },
     {
       name: "Ant Orta",
       title: "Junior Director of External Relations",
-      img: "/Ant_Orta.avif",
+      img: "./Ant_Orta.avif",
     },
     {
       name: "Braedon Hallmark",
       title: "Officer of Campaigns",
-      img: "/Braedon.avif",
+      img: "./Braedon.avif",
     },
     {
       name: "Danny DuCharme",
       title: "Officer of Campaigns",
-      img: "/DannyDuCharme.avif",
+      img: "./DannyDuCharme.avif",
     },
     {
       name: "Olga Tumanova",
       title: "Officer-At-Large",
-      img: "/Olga_Tumanova.avif",
+      img: "./Olga_Tumanova.avif",
     },
   ];
 
@@ -43,7 +43,7 @@ export default function About() {
         <div className="container mx-auto px-6 lg:px-20">
           <div className="hero-content flex-col lg:flex-row items-center gap-16">
             <img
-              src="\about_us.avif"
+              src="./about_us.avif"
               className="w-full max-w-lg lg:max-w-xl rounded-2xl shadow-2xl transform hover:scale-105 transition-transform duration-500"
               alt="About us"
             />

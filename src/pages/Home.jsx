@@ -87,7 +87,7 @@ function Home() {
 
     <div className="relative">
       <img
-        src="/coral.svg"
+        src="./coral.svg"
         alt="Coral Reef"
         className="relative w-full h-auto block scale-101"
       />
