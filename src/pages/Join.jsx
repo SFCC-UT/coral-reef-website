@@ -1,6 +1,7 @@
 export default function Join() {
   return (
-    <div className="hero min-h-screen">
+    <div className = "fade-in">
+    <div className="hero min-h-screen bg-linear-to-b from-blue-400 to-blue-900">
       <div className="hero-content text-center">
         <div className="max-w-md space-y-8">
           <h1 className="text-6xl lg:text-7xl font-extrabold mb-6">
@@ -36,6 +37,7 @@ export default function Join() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

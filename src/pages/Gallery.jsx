@@ -1,7 +1,6 @@
-export default function Contact() {
+export default function Gallery() {
   return (
-    <div className = "min-h-screen">
-
+    <div className = "min-h-screen bg-linear-to-b from-blue-400 to-blue-900 fade-in">
     <div className="carousel carousel-center rounded-box space-x-4 p-4 bg-transparent">
     <div className="carousel-item">
         <img
@@ -44,12 +43,8 @@ export default function Contact() {
         src="./gallery_image7.jpeg"
         className="w-full h-64 object-cover rounded-lg shadow-lg"
         alt="Gallery Image #7" />
+     </div>
     </div>
-    </div>
-
-
-
-
-    </div>
+   </div>
   );
 }
