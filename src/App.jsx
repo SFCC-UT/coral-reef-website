@@ -23,7 +23,7 @@ function Navbar() {
     } else {
       document.documentElement.style.setProperty(
         "--color-base-100",
-        "oklch(70.7% 0.165 254.624)"
+        "linear-gradient(to bottom, #60a5fa, #1e40af)"
       );
     }
   }, [location.pathname]);

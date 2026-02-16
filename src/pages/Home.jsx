@@ -2,7 +2,7 @@ import BubbleButton from "../components/BubbleButton";
 
 function Home() {
   return (
-<div className="fade-in bg-[#020206] ">
+<div className="fade-in bg-[#020206]">
 
 <div className="">
 <ul className="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">

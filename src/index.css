@@ -6,7 +6,7 @@
  @plugin "daisyui/theme" {
   name: "aqua";
   default: true;
-  --color-base-100: oklch(70.7% 0.165 254.624);
+  --color-base-100: linear-gradient(to bottom, #60a5fa, #1e40af);
 }
 
  @theme {

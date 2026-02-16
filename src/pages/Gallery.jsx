@@ -1,6 +1,6 @@
 export default function Contact() {
   return (
-    <div className = "min-h-screen bg-linear-to-b from-blue-400 to-blue-900   ">
+    <div className = "min-h-screen">
 
     <div className="carousel carousel-center rounded-box space-x-4 p-4 bg-transparent">
     <div className="carousel-item">
