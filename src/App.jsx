@@ -31,7 +31,7 @@ function Navbar() {
   return (
     <div className={navClass}>
       <div className="navbar-start">
-        <Link to="/">
+        <Link to="/" className="shrink-0">
           <img src="./sfcc.avif" alt="SFCC Logo" className="h-32 w-auto" />
         </Link>
         <span className="text-2xl font-bold ml-2">
