@@ -39,7 +39,7 @@ export default function About() {
 
   return (
     <div className="fade-in">
-      <div className="bg-linear-to-b from-blue-400 to-blue-900 min-h-screen flex items-center -mt-20">
+      <div className="bg-linear-to-b from-blue-400 to-blue-900 min-h-screen flex items-center py -16">
         <div className="container mx-auto px-6 lg:px-20">
           <div className="hero-content flex-col lg:flex-row items-center gap-16">
             <img

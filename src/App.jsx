@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { HashRouter as Router, Routes, Route, Link, useLocation } from "react-router-dom";
 import { FaTwitter, FaInstagram, FaFacebookF, FaEnvelope} from 'react-icons/fa';
 import { CgWebsite } from 'react-icons/cg';
@@ -15,6 +16,17 @@ function Navbar() {
   const navClass = location.pathname === "/" 
     ? "navbar bg-[#020206] px-6 z-50" 
     : "navbar bg-transparent px-6 z-50";
+
+    useEffect(() => {
+    if (location.pathname === "/") {
+      document.documentElement.style.setProperty("--color-base-100", "#020206");
+    } else {
+      document.documentElement.style.setProperty(
+        "--color-base-100",
+        "oklch(70.7% 0.165 254.624)"
+      );
+    }
+  }, [location.pathname]);
 
   return (
     <div className={navClass}>
