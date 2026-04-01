@@ -22,7 +22,7 @@ export default function Join() {
 
           <div className="flex justify-center gap-4">
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfnK9mTuwRvm4jSLmqRsCArEX42nJWip1tXXWfSbCtouL3TLw/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeVuHmK_TXguX_nps8oZG_H39RUVkSA_Y91ofwEB3nJQ8qF-g/viewform?usp=header"
               className="btn btn-success btn-lg rounded-full px-8 py-4 text-xl"
             >
               Interest Form
